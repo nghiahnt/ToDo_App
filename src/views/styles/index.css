@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine&display=swap");
+
+.image {
+  object-fit: cover;
+}
+
+.bg-custom {
+  background-color: #3f4f7a;
+}
+
+.bg-modal {
+  background-color: #ffd79b;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}
+
+.cousine {
+  font-family: "Cousine", monospace;
+}
+
+.btn-white {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+.btn-white:focus {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+.center {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='5' ry='5' stroke='%23333' stroke-width='4' stroke-dasharray='10%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 5px;
+  padding: 5em 0 5em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.image-upload input {
+  display: none;
+}
+
+.mg-1 {
+  margin-top: -0.1px;
+}
+
+.smaller {
+  font-size: 9px;
+}
+
+.height-custom {
+  height: 262.5px;
+}
